@@ -1,0 +1,91 @@
+@media (grid: 0){
+	.container__grid {
+		display: grid;
+		height: 100vh;
+		/*width: 100vw;*/
+		width: 1360px;
+		/*display: flex;
+		overflow: hidden;*/
+		/*flex-direction: column;*/
+		justify-content: center;
+		margin: auto;
+		align-items: center;
+	}
+	
+	/* * --- --- ---  HEADER --- --- --- */
+	.header {
+		grid-area: header;
+		/*background-color:blueviolet;*/
+	}
+	
+	/* * --- --- ---  IMAGEN --- --- --- */
+	.imagen {
+		grid-area: imagen;
+		/*background-color:chartreuse;*/
+	}
+
+	/* * --- --- ---  FORMULARIO --- --- --- */
+	.formulario {
+		grid-area: formulario;
+		/*background-color:blue;*/
+	}
+	
+	.barra {
+		grid-area: barra;
+		background-color: var(--grisBg);
+		height: 100%;
+	}
+	
+	.resumen {
+		grid-area: resumen;
+		/*background-color:blue;*/
+	}
+
+	/* * --- --- ---  FOOTER --- --- --- */
+	.footer {
+		grid-area: footer;
+	}
+
+	@media screen and (min-width:768px){
+		.container__grid {		
+			/*background-color: aquamarine;*/
+			/*grid-gap: 20px; Margen entre elementos*/
+			grid-template-columns: repeat(5, 1fr); /*5 columnas*/
+			grid-template-rows: 1fr 8fr 1fr; /*3 fila*/
+		}
+		.maqueta__primaria {
+			grid-template-areas: 	"header	header	header		header		header"
+									"imagen	imagen	formulario	formulario	formulario"
+									"footer	footer	formulario	formulario	formulario"
+			;
+		}
+		.maqueta__secundaria {
+			grid-template-areas: 	"header	header	header		header		header"
+									"barra	barra	imagen		imagen		resumen"
+									"barra	barra	formulario	formulario	resumen"
+			;
+		}
+	}
+
+	/* PANTALLA TABLET */
+	@media screen and (max-width: 768px) {
+		.container__grid {
+			/*background-color: orange;*/
+		}
+		.maqueta__primaria {
+			grid-template-areas: 	"header header header header header"
+									"imagen imagen imagen imagen imagen"
+									"formulario formulario formulario formulario formulario"
+									"footer footer footer footer footer"
+			;
+		}
+		.maqueta__secundaria {
+			grid-template-areas: 	"header	header	header	header	header"
+									"barra	barra	barra	barra	barra"
+									"imagen imagen imagen imagen imagen"
+									"formulario formulario formulario formulario formulario"
+									"resumen resumen resumen resumen resumen"
+			;
+		}
+	}
+}

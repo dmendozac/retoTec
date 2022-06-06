@@ -1,0 +1,14 @@
+{
+    "API_URL": "https://jsonplaceholder.typicode.com/users",
+    "MINIMO": "12500",
+    "MAXIMO": "16500",
+    "MONTO_BASE": "20",
+    "LLANTA_ROBADA": "15",
+    "CHOQUE": "20",
+    "ATROPELLO": "50",
+    "VARIANTE": "100",
+    "CONDICION": "16000",
+    "MARCA": "Wolkswagen",
+    "MODELO": "Golf",
+    "AÑO": "2019"
+}

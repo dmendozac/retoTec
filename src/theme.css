@@ -1,0 +1,15 @@
+:root {
+	--fondo: rgb(249,249,249);/*'#F9F9F9'*/
+	--colorPrimario:  rgb(91,105,226);/*'#5B69E2'*/
+	--verde:  rgb(67,183,72);/*'#43B748'*/
+	--rojo: rgb(239,51,64);/*'#EF3340'*/
+	--lila: rgb(111,125,255);/*'#6F7DFF'*/
+	--grisClaro: rgb(203,221,226);/*'#CBDDE2'*/
+	--grisClaro2: rgb(197,203,224);/*'#C5CBE0'*/
+	--grisClaro3: rgb(163,171,204);/*'#A3ABCC'*/
+	--grisOscuro: rgb(73,79,102);/*'#494F66'*/
+	--grisBg: rgb(247,248,252);/*'#F7F8FC'*/
+	--azulClaro: rgb(135,146,241);/*'#8792F1'*/
+	--blanco: rgb(255,255,255);/*'#fff'*/
+	--negro: rgb(0,0,0);/*#000*/
+}
