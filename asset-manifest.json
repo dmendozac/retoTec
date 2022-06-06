@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/retoTec/static/css/main.073c9b0a.css",
+    "main.js": "/retoTec/static/js/main.23528b35.js",
+    "static/js/787.d9301211.chunk.js": "/retoTec/static/js/787.d9301211.chunk.js",
+    "static/media/logo.svg": "/retoTec/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/retoTec/index.html",
+    "main.073c9b0a.css.map": "/retoTec/static/css/main.073c9b0a.css.map",
+    "main.23528b35.js.map": "/retoTec/static/js/main.23528b35.js.map",
+    "787.d9301211.chunk.js.map": "/retoTec/static/js/787.d9301211.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.23528b35.js"
+  ]
+}
